@@ -1,0 +1,156 @@
+html {
+  background-color: #FFEFEF;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: darksalmon;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 15px 10px 15px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.main {
+  margin-left: 200px;
+  padding: 0px 10px;
+}
+
+header {
+  color: #7C5100;
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+body {
+  color: #7C5100;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hp {
+  margin-left: 125px;
+  width: 1000px;
+}
+
+h1 {
+  margin-left: 200px;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+h4 {
+  margin-left: 125px;
+  width: 1000px;
+}
+
+h5 {
+  margin-left: 100px;
+  text-align: center;
+  font-size: medium;
+  width: 1200px;
+}
+
+.poster {
+  height: 300px;
+  width: 225px;
+  padding: 0px 20px;
+}
+
+.film {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.movie {
+  border: solid 3px peachpuff;
+  border-radius: 20%;
+}
+
+.music {
+  display: flex;
+  width: 1200px;
+  font-size: 1.1em;
+  margin-left: 0px;
+  list-style: none;
+  justify-content: space-between;
+  text-align: center;
+  align-content: center;
+}
+
+.album {
+  height: 225px;
+  width: 225px;
+  padding: 0px 20px;
+  flex-wrap: wrap;
+}
+
+.song {
+  height: 225px;
+  width: 225px;
+  padding: 0px 20px;
+  border-radius: 100%;
+  flex-wrap: wrap;
+}
+
+#country {
+  list-style: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#travel {
+  font-weight: normal;
+  font-size: 16px;
+  width: 1000px;
+}
+
+.photo {
+  display: flex;
+  padding: 0px 40px 0px 0px;
+  height: 200px;
+  width: 350px;
+}
+
+.caption {
+  font-size: 13px;
+  color: #818181;
+}
+
+section {
+  margin-left: 100px;
+  float: left;
+  width: 40%;
+  padding: 10px 0px;
+}
+
+aside {
+  margin-right: 100px;
+  float: right;
+  width: 30%;
+
+}
+
+.decor {
+  margin-left: 200px;
+  text-align: center;
+  font-size: 2em;
+}
